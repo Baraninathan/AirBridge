@@ -4,11 +4,23 @@
 [![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/yourusername/AirBridge)
 [![ESP8266](https://img.shields.io/badge/platform-ESP8266-green.svg)](https://www.esp8266.com/)
 
-**AirBridge** is an ESP8266-based WiFi-to-IR bridge that allows you to control your air conditioner remotely. This is the **open-source edition** that provides universal IR signal relay functionality for 60+ AC protocols.
+**AirBridge v2.0** is an open-source ESP8266-based WiFi-to-IR bridge that transforms any air conditioner into a network-controlled device.
+
+Supporting 60+ IR protocols across 12 major brands (Daikin, Mitsubishi, LG, Samsung, Panasonic, and more), this DIY IoT hardware project provides universal remote control functionality with temperature monitoring and web-based configuration.
+
+Originally developed as [NextAir](https://wenext.net/%e0%b8%95%e0%b8%b1%e0%b8%a7%e0%b8%ad%e0%b8%a2%e0%b9%88%e0%b8%b2%e0%b8%87%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2) in 2016-2019, this simplified open-source release focuses on reliable IR signal relay without proprietary energy-saving features.
+
+
+<img width="778" height="543" alt="image" src="https://github.com/user-attachments/assets/a569046a-1932-41be-be0c-db4368434759" />
+
+*3D rendering of the third-generation design for NextAir / AirBridge (2019)*
+
 
 ---
 
 ## ⚠️ Important Notice
+
+**AirBridge** is an ESP8266-based WiFi-to-IR bridge that allows you to control your air conditioner remotely. This is the **open-source edition** that provides universal IR signal relay functionality for 60+ AC protocols.
 
 This is **AirBridge v2.0** - the open-source edition.
 
@@ -18,8 +30,8 @@ This is **AirBridge v2.0** - the open-source edition.
 - ✅ Temperature sensor display (optional)
 - ✅ Support for 12+ AC brands (60+ protocols)
 
-**What's NOT Included (Available in Commercial v1.0):**
-- ❌ Smart energy-saving algorithms (20-50% savings)
+**What's NOT Included (Available in Commercial Version):**
+- ❌ Smart energy-saving algorithms (certified 20-50% savings)
 - ❌ Baseline learning and adaptation
 - ❌ Automatic power cutting
 - ❌ Remote monitoring (MQTT)
@@ -27,6 +39,12 @@ This is **AirBridge v2.0** - the open-source edition.
 - ❌ Professional support
 
 **Commercial Version:** For the full-featured version with patented energy-saving technology, visit **[https://wenext.net/](https://wenext.net/)**
+
+
+<img width="864" height="566" alt="image" src="https://github.com/user-attachments/assets/a1cafae8-69be-475c-84c0-b61e5b12146e" />
+
+*NextAir prototype during real-world operation (2017)*
+
 
 ---
 
@@ -66,6 +84,11 @@ AirBridge v2.0 acts as a WiFi-to-IR bridge for your air conditioner:
   - Green: IR signal activity
   - Yellow: System status/warnings
 
+
+<img width="563" height="376" alt="image" src="https://github.com/user-attachments/assets/df2faae3-e536-4b59-8d6b-dee98623ace6" />
+
+*The hardware (2019) features two temperature sensors, an infrared receiver, and a transmitter : [NextAir](https://wenext.net/%e0%b8%95%e0%b8%b1%e0%b8%a7%e0%b8%ad%e0%b8%a2%e0%b9%88%e0%b8%b2%e0%b8%87%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2)*
+
 ---
 
 ## Hardware Requirements
@@ -94,6 +117,11 @@ GPIO12 → Yellow Status LED
 GPIO14 → Green Status LED
 ```
 
+
+<img width="537" height="463" alt="image" src="https://github.com/user-attachments/assets/4c128127-ade0-424e-b9c8-7d0a6bc717f2" />
+
+*Flashing new firmware on the second model of NextAir / AirBridge*
+
 ---
 
 ## Installation
@@ -105,6 +133,11 @@ GPIO14 → Green Status LED
 3. Connect status LEDs to GPIO12 (yellow) and GPIO14 (green)
 4. *Optional:* Connect DS18B20 sensors to GPIO2 with 4.7kΩ pull-up resistor
 5. Power via USB (5V)
+
+
+<img width="342" height="490" alt="image" src="https://github.com/user-attachments/assets/c9e606c2-fd80-436e-8658-8c017e94b52c" />
+
+*Assessment of the hardware and saving algorithm during operation in 2017*
 
 ### 2. Software Upload
 
@@ -148,6 +181,11 @@ Using **Arduino IDE**:
 
 5. Device will restart and connect to your WiFi
 ```
+
+<img width="1197" height="773" alt="image" src="https://github.com/user-attachments/assets/b67cfa8c-5417-431e-af0d-8133772f6cf1" />
+
+*The first NextAir prototype used a different microprocessor — a Raspberry Pi.*
+
 
 ---
 
@@ -365,6 +403,10 @@ Permission is hereby granted, free of charge...
 ### Open-Source Release (2025)
 **Maintainer:**
 - **Werapol Bejranonda** - Reorganized for open-source release
+
+### Funding
+- Wenext.net (Smart Energy Technology Co., Ltd.)
+- Dr.Siwanand Misara
 
 ### Special Thanks
 - **IRremoteESP8266** library contributors
